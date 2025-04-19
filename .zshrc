@@ -12,6 +12,7 @@ plug "zsh-users/zsh-history-substring-search"
 plug "wintermi/zsh-lsd"
 plug "yuhonas/zsh-aliases-lsd"
 plug "Aloxaf/fzf-tab"
+plug "Freed-Wu/fzf-tab-source"  
 
 export POSH_THEME="$HOME/.config/oh-my-posh/themes/powerlevel10k_rainbow.omp.json"
 plug "wintermi/zsh-oh-my-posh"
