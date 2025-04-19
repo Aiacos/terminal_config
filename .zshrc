@@ -9,7 +9,7 @@ plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
 
-export POSH_THEME="$HOME/.config/oh-my-posh/themes"
+export POSH_THEME="$HOME/.config/oh-my-posh/themes/powerlevel10k_rainbow.omp.json"
 plug "wintermi/zsh-oh-my-posh"
 
 # Load and initialise completion system
