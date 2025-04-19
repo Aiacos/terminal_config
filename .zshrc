@@ -9,10 +9,11 @@ plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
 
+export POSH_THEME="$HOME/.config/oh-my-posh/themes"
+plug "wintermi/zsh-oh-my-posh"
+
 # Load and initialise completion system
 autoload -Uz compinit
-compinitplug "wintermi/zsh-oh-my-posh"
-eval "$(oh-my-posh init zsh --config ~/.cache/oh-my-posh/themes/powerlevel10k_rainbow.omp.json)"
 
 # Define utility functions and aliases
 backup_with_timestamp() {
