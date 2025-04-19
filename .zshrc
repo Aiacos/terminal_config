@@ -10,6 +10,7 @@ plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "zsh-users/zsh-history-substring-search"
 plug "wintermi/zsh-lsd"
+plug "yuhonas/zsh-aliases-lsd"
 
 export POSH_THEME="$HOME/.config/oh-my-posh/themes/powerlevel10k_rainbow.omp.json"
 plug "wintermi/zsh-oh-my-posh"
