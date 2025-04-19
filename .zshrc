@@ -8,7 +8,7 @@ plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "zap-zsh/zap-prompt"
 plug "zsh-users/zsh-syntax-highlighting"
- zplug "zsh-users/zsh-history-substring-search", as: plugin
+plug "zsh-users/zsh-history-substring-search"
 plug "wintermi/zsh-lsd"
 
 export POSH_THEME="$HOME/.config/oh-my-posh/themes/powerlevel10k_rainbow.omp.json"
