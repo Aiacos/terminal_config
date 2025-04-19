@@ -14,12 +14,14 @@ plug "yuhonas/zsh-aliases-lsd"
 plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "tm4Bit/fzf-zellij"
+plug "wintermi/zsh-brew"
 
 export POSH_THEME="$HOME/.config/oh-my-posh/themes/powerlevel10k_rainbow.omp.json"
 plug "wintermi/zsh-oh-my-posh"
 
 # Load and initialise completion system
 autoload -Uz compinit
+compinit -d "${ZDOTDIR:-$HOME}/.zcompdump"
 
 # Define utility functions and aliases
 backup_with_timestamp() {
