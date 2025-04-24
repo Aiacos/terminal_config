@@ -12,6 +12,9 @@ plug "Aloxaf/fzf-tab"
 plug "Freed-Wu/fzf-tab-source"
 plug "tm4Bit/fzf-zellij"
 
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
 export POSH_THEME="$HOME/.config/oh-my-posh/themes/powerlevel10k_rainbow.omp.json"
 plug "wintermi/zsh-oh-my-posh"
 
