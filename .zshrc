@@ -2,10 +2,6 @@
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 export XDG_DATA_DIRS="/home/linuxbrew/.linuxbrew/share:$XDG_DATA_DIRS"
 
-# Atuin
-#. "$HOME/.atuin/bin/env"
-#eval "$(atuin init zsh)"
-
 # Created by Zap installer
 [ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
 plug "zsh-users/zsh-autosuggestions"
@@ -30,6 +26,10 @@ plug "wintermi/zsh-oh-my-posh"
 # Load and initialise completion system
 autoload -Uz compinit
 compinit -d "${ZDOTDIR:-$HOME}/.zcompdump"
+
+# Atuin
+#. "$HOME/.atuin/bin/env"
+eval "$(atuin init zsh)"
 
 # Define utility functions and aliases
 backup_with_timestamp() {
